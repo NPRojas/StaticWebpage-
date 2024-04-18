@@ -1,0 +1,17 @@
+main{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    justify-content: center;    
+    margin-top: 8rem;
+}
+
+main > h1 {
+    font-size: 96px;
+    margin-left: 30rem;
+}
+
+main > h1 + h1 {
+    font-size: 128px;
+    margin-left: 50rem;
+}

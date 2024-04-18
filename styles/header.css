@@ -1,0 +1,45 @@
+html, body {
+    height: 100%;
+}
+html {
+    background: linear-gradient(180deg, rgba(228,232,192,1) 22%, rgba(223,229,192,1) 24%, rgba(25,125,181,1) 100%); }
+    
+
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: "Roberto", sans-serif;
+}
+header{
+    display: flex;
+    margin-left: 10rem;
+    justify-content: left;
+    gap:  10em;
+    align-items: center;
+}
+
+header > div {
+    display: flex;
+    gap: 5em;
+    justify-content: space-evenly;
+}
+
+#webTitle {
+    font-family: "Jersey 25", sans-serif;
+    font-style: normal;
+    margin-left: 10px;
+    font-size: 40px;
+    color: #197cb4;
+}
+
+.nav-button {
+    color: #197cb4;
+    font-size: 30px;
+    font-family: "Roboto", sans-serif;
+    border-radius: 30px;
+    padding: 15px;
+    margin: 20px;
+    border: solid 2px;
+    border-color: #197cb4;
+    background-color: rgba(198, 198, 198, 0);
+}
