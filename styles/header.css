@@ -5,13 +5,6 @@ html, body {
 }
 html {
     background: linear-gradient(180deg, rgba(228,232,192,1) 22%, rgba(223,229,192,1) 24%, rgba(25,125,181,1) 100%); }
-    
-
-body {
-    display: flex;
-    flex-direction: column;
-    font-family: "Roberto", sans-serif;
-}
 
 a {
     text-decoration: none;
