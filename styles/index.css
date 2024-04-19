@@ -13,5 +13,5 @@ main > h1 {
 
 main > h1 + h1 {
     font-size: 128px;
-    margin-left: 50rem;
+    margin-left: 54rem;
 }

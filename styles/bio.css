@@ -1,0 +1,39 @@
+main {
+    display: flex;
+    margin-top: 2rem;
+    margin-left: 8rem;
+    padding: 3rem;
+    gap: 2rem;
+    color: white;
+}
+
+img {
+    border-radius: 30%;
+    max-width: 48rem;
+    max-height: 40rem;
+}
+
+h1, h2, h3 {
+    margin: 0px;
+    padding: 0px;
+}
+
+h1 {
+    font-size: 128px;
+}
+
+h2 {
+    font-size: 40px;
+
+}
+
+h3, p {
+    font-size: 32px;
+}
+
+.mainLeft {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   gap: 10px;
+}
